@@ -148,7 +148,7 @@ class GitSegment(Segment):
         repo = None
         try:
             repo_path = pygit2.discover_repository(segment_info['getcwd']())
-            repo = pygit2.Repository(repo_path)
+            repo = pygit2.Repository(str(repo_path))
         except KeyError:
             return
 
