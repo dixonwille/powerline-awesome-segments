@@ -10,7 +10,7 @@ setup(
     author_email     = 'dixonwille@hotmail.com',
     url              = 'https://github.com/dixonwille/powerline-awesome-segments',
     packages         = ['powerline_awesome_segments.go','powerline_awesome_segments.cwdpath','powerline_awesome_segments.git'],
-    install_requires = ['powerline-status>=2.6', 'pygit2>=0.26.4,<0.27.0'],
+    install_requires = ['powerline-status>=2.6', 'pygit2>=0.27.0'],
     classifiers      = [
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
