@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name             = 'powerline_awesome_segments',
     description      = 'Powerline segments for the everyday developer',
-    version          = '0.1.0a2',
+    version          = '0.1.0a3',
     keywords         = 'powerline segment cwd',
     license          = 'GPLv3',
     author           = 'Will E. Dixon',
